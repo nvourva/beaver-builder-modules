@@ -1,0 +1,139 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: CI Beaver Modules\n"
+"POT-Creation-Date: 2019-06-04 00:32+0300\n"
+"PO-Revision-Date: 2016-08-29 19:22+0300\n"
+"Last-Translator: Nik Vourvachis <nvourva@cssigniter.com>\n"
+"Language-Team: Nik Vourvachis <nvourva@cssigniter.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ci-beaver-modules.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ci-beaver-modules.php:55
+msgid ""
+"CI Beaver Modules requires the Beaver Builder plugin to be active. Please "
+"activate it to continue."
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:8
+msgid "Justified Gallery"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:9
+msgid "What it says on the tin!"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:10
+msgid "CSSIgniter Modules"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:11
+msgid "Image Modules"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:30
+msgid "Options"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:36
+msgid "Gallery Images"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:40
+msgid "Image Size"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:45
+msgid "Image Links To"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:48
+msgid "Media File"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:49
+msgid "Attachment Page"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:50
+msgid "None"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:60
+msgid "Lightbox"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:63
+#: ci-justified-gallery/ci-justified-gallery.php:104
+msgid "Yes"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:64
+#: ci-justified-gallery/ci-justified-gallery.php:105
+msgid "No"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:69
+msgid "Row Height"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:79
+msgid "Gallery Margins"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:89
+msgid "Last Row"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:92
+msgid "No Justify"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:93
+msgid "Justify"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:94
+msgid "Hide"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:95
+msgid "Left"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:96
+msgid "Right"
+msgstr ""
+
+#: ci-justified-gallery/ci-justified-gallery.php:101
+msgid "Randomize Images"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "CI Beaver Modules"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://cssigniter.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Custom modules for the Beaver Builder Plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "cssigniter.com"
+msgstr ""

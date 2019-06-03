@@ -5,12 +5,12 @@ class CIJustifiedGallery extends FLBuilderModule {
 	public function __construct() {
 		parent::__construct(
 			array(
-				'name'            => __( 'Justified Gallery', 'fl-builder' ),
-				'description'     => __( 'What it says on the tin!', 'fl-builder' ),
-				'group'           => __( 'CSSIgniter Modules', 'fl-builder' ),
-				'category'        => __( 'Image Modules', 'fl-builder' ),
-				'dir'             => MY_MODULES_DIR . 'ci-justified-gallery/',
-				'url'             => MY_MODULES_URL . 'ci-justified-gallery/',
+				'name'            => __( 'Justified Gallery', 'ci-beaver-modules' ),
+				'description'     => __( 'What it says on the tin!', 'ci-beaver-modules' ),
+				'group'           => __( 'CSSIgniter Modules', 'ci-beaver-modules' ),
+				'category'        => __( 'Image Modules', 'ci-beaver-modules' ),
+				'dir'             => CI_MODULES_DIR . 'ci-justified-gallery/',
+				'url'             => CI_MODULES_URL . 'ci-justified-gallery/',
 				'icon'            => 'button.svg',
 				'editor_export'   => true, // Defaults to true and can be omitted.
 				'enabled'         => true, // Defaults to true and can be omitted.
@@ -27,27 +27,27 @@ FLBuilder::register_module(
 	'CIJustifiedGallery',
 	array(
 		'options' => array(
-			'title'    => __( 'Options', 'fl-builder' ),
+			'title'    => __( 'Options', 'ci-beaver-modules' ),
 			'sections' => array(
 				'gallery_options' => array(
 					'fields' => array(
 						'gallery_images'  => array(
 							'type'  => 'multiple-photos',
-							'label' => __( 'Gallery Images', 'fl-builder' ),
+							'label' => __( 'Gallery Images', 'ci-beaver-modules' ),
 						),
 						'image_size'      => array(
 							'type'    => 'photo-sizes',
-							'label'   => __( 'Image Size', 'fl-builder' ),
+							'label'   => __( 'Image Size', 'ci-beaver-modules' ),
 							'default' => 'medium',
 						),
 						'link_to'         => array(
 							'type'    => 'select',
-							'label'   => __( 'Image Links To', 'fl-builder' ),
+							'label'   => __( 'Image Links To', 'ci-beaver-modules' ),
 							'default' => 'file',
 							'options' => array(
-								'file'       => __( 'Media File', 'fl-builder' ),
-								'attachment' => __( 'Attachment Page', 'fl-builder' ),
-								'none'       => __( 'None', 'fl-builder' ),
+								'file'       => __( 'Media File', 'ci-beaver-modules' ),
+								'attachment' => __( 'Attachment Page', 'ci-beaver-modules' ),
+								'none'       => __( 'None', 'ci-beaver-modules' ),
 							),
 							'toggle'  => array(
 								'file' => array(
@@ -57,16 +57,16 @@ FLBuilder::register_module(
 						),
 						'lightbox'        => array(
 							'type'    => 'select',
-							'label'   => __( 'Lightbox', 'fl-builder' ),
+							'label'   => __( 'Lightbox', 'ci-beaver-modules' ),
 							'default' => 'yes',
 							'options' => array(
-								'yes' => __( 'Yes', 'fl-builder' ),
-								'no'  => __( 'No', 'fl-builder' ),
+								'yes' => __( 'Yes', 'ci-beaver-modules' ),
+								'no'  => __( 'No', 'ci-beaver-modules' ),
 							),
 						),
 						'row_height'      => array(
 							'type'    => 'unit',
-							'label'   => __( 'Row Height', 'fl-builder' ),
+							'label'   => __( 'Row Height', 'ci-beaver-modules' ),
 							'default' => 120,
 							'slider'  => array(
 								'min'  => 50,
@@ -76,7 +76,7 @@ FLBuilder::register_module(
 						),
 						'gallery_margins' => array(
 							'type'    => 'unit',
-							'label'   => __( 'Gallery Margins', 'fl-builder' ),
+							'label'   => __( 'Gallery Margins', 'ci-beaver-modules' ),
 							'default' => 1,
 							'slider'  => array(
 								'min'  => 0,
@@ -86,23 +86,23 @@ FLBuilder::register_module(
 						),
 						'last_row'        => array(
 							'type'    => 'select',
-							'label'   => __( 'Last Row', 'fl-builder' ),
+							'label'   => __( 'Last Row', 'ci-beaver-modules' ),
 							'default' => 'nojustify',
 							'options' => array(
-								'nojustify' => __( 'No Justify', 'fl-builder' ),
-								'justify'   => __( 'Justify', 'fl-builder' ),
-								'hide'      => __( 'Hide', 'fl-builder' ),
-								'left'      => __( 'Left', 'fl-builder' ),
-								'right'     => __( 'Right', 'fl-builder' ),
+								'nojustify' => __( 'No Justify', 'ci-beaver-modules' ),
+								'justify'   => __( 'Justify', 'ci-beaver-modules' ),
+								'hide'      => __( 'Hide', 'ci-beaver-modules' ),
+								'left'      => __( 'Left', 'ci-beaver-modules' ),
+								'right'     => __( 'Right', 'ci-beaver-modules' ),
 							),
 						),
 						'randomize'       => array(
 							'type'    => 'select',
-							'label'   => __( 'Randomize Images', 'fl-builder' ),
+							'label'   => __( 'Randomize Images', 'ci-beaver-modules' ),
 							'default' => 'no',
 							'options' => array(
-								'yes' => __( 'Yes', 'fl-builder' ),
-								'no'  => __( 'No', 'fl-builder' ),
+								'yes' => __( 'Yes', 'ci-beaver-modules' ),
+								'no'  => __( 'No', 'ci-beaver-modules' ),
 							),
 						),
 					),
