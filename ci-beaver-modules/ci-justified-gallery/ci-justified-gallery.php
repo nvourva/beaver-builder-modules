@@ -20,7 +20,6 @@ class CIJustifiedGallery extends FLBuilderModule {
 
 		$this->add_css( 'justified-gallery', $this->url . 'css/justifiedGallery.min.css' );
 		$this->add_js( 'justified-gallery', $this->url . 'js/jquery.justifiedGallery.min.js', array( 'jquery' ), '3.6.3', true );
-		// $this->add_js( 'ci-justified-gallery', $this->url . 'js/ci-justified-gallery.js', array( 'justified-gallery' ), '1.0.0', true );
 	}
 }
 
@@ -30,16 +29,81 @@ FLBuilder::register_module(
 		'options' => array(
 			'title'    => __( 'Options', 'fl-builder' ),
 			'sections' => array(
-				'my-section-1' => array(
+				'gallery_options' => array(
 					'fields' => array(
-						'gallery_images'       => array(
+						'gallery_images'  => array(
 							'type'  => 'multiple-photos',
 							'label' => __( 'Gallery Images', 'fl-builder' ),
 						),
-						'image_size' => array(
+						'image_size'      => array(
 							'type'    => 'photo-sizes',
 							'label'   => __( 'Image Size', 'fl-builder' ),
 							'default' => 'medium',
+						),
+						'link_to'         => array(
+							'type'    => 'select',
+							'label'   => __( 'Image Links To', 'fl-builder' ),
+							'default' => 'file',
+							'options' => array(
+								'file'       => __( 'Media File', 'fl-builder' ),
+								'attachment' => __( 'Attachment Page', 'fl-builder' ),
+								'none'       => __( 'None', 'fl-builder' ),
+							),
+							'toggle'  => array(
+								'file' => array(
+									'fields' => array( 'lightbox' ),
+								),
+							),
+						),
+						'lightbox'        => array(
+							'type'    => 'select',
+							'label'   => __( 'Lightbox', 'fl-builder' ),
+							'default' => 'yes',
+							'options' => array(
+								'yes' => __( 'Yes', 'fl-builder' ),
+								'no'  => __( 'No', 'fl-builder' ),
+							),
+						),
+						'row_height'      => array(
+							'type'    => 'unit',
+							'label'   => __( 'Row Height', 'fl-builder' ),
+							'default' => 120,
+							'slider'  => array(
+								'min'  => 50,
+								'max'  => 600,
+								'step' => 10,
+							),
+						),
+						'gallery_margins' => array(
+							'type'    => 'unit',
+							'label'   => __( 'Gallery Margins', 'fl-builder' ),
+							'default' => 1,
+							'slider'  => array(
+								'min'  => 0,
+								'max'  => 50,
+								'step' => 1,
+							),
+						),
+						'last_row'        => array(
+							'type'    => 'select',
+							'label'   => __( 'Last Row', 'fl-builder' ),
+							'default' => 'nojustify',
+							'options' => array(
+								'nojustify' => __( 'No Justify', 'fl-builder' ),
+								'justify'   => __( 'Justify', 'fl-builder' ),
+								'hide'      => __( 'Hide', 'fl-builder' ),
+								'left'      => __( 'Left', 'fl-builder' ),
+								'right'     => __( 'Right', 'fl-builder' ),
+							),
+						),
+						'randomize'       => array(
+							'type'    => 'select',
+							'label'   => __( 'Randomize Images', 'fl-builder' ),
+							'default' => 'no',
+							'options' => array(
+								'yes' => __( 'Yes', 'fl-builder' ),
+								'no'  => __( 'No', 'fl-builder' ),
+							),
 						),
 					),
 				),
